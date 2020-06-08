@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+        <a routerLink="players" class="nav-link" routerLinkActive="active">Players List</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="add" class="nav-link" routerLinkActive="active" style="color: #FF9900;">Add Players</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <br>
+  <h2 style="text-align: center; background: #242222ec;">
+  <span style="color: white;">Players</span>
+  <span style="background: #FF9900;">Hub</span>
+  </h2>
+  <hr>  
+  <div class="card">
+    <div class="card-body">
+  <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
